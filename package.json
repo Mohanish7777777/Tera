@@ -1,0 +1,17 @@
+{
+  "name": "terabox-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for downloading files from Terabox.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.12.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.0.3",
+    "aria2-client": "^2.0.0"
+  }
+}
